@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import {FilePicker} from "./components/file-picker";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FilePicker
+          uploadURL={"http://localhost:8080/api/v1/dms/fileparts/"}
+          loginURL={"http://localhost:8080/api/v1/auth/jwt/create/"}
+      />
     </div>
   );
 }
