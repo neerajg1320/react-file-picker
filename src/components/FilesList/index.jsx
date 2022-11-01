@@ -1,9 +1,9 @@
 import React, { useCallback } from "react";
 /** icons **/
-import CheckIcon from "./check";
-import ClearIcon from "./clear";
+import CheckIcon from "../Icons/check";
+import ClearIcon from "../Icons/clear";
 /** styles **/
-import styles from "./files-list.module.css";
+import styles from "./style.module.css";
 
 const FilesListItem = ({ name, id, onClear, uploadComplete }) => {
   const handleClear = useCallback(() => {

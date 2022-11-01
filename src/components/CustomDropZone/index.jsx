@@ -1,7 +1,7 @@
-// drop-zone.jsx
+// index.jsx
 
 import React from "react";
-import styles from "./drop-zone.module.css";
+import styles from "./style.module.css";
 
 const Banner = ({ onClick, onDrop }) => {
   const handleDragOver = (ev) => {

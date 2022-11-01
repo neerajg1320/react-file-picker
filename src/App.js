@@ -1,5 +1,5 @@
 import './App.css';
-import {FilePicker} from "./components/file-picker";
+import { FilePicker } from "./components/FilePicker";
 
 
 function App() {
